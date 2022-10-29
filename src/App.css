@@ -7,6 +7,29 @@
   pointer-events: none;
 }
 
+.button {
+  background-color: rebeccapurple;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.button:hover {
+  background-color: gray;
+}
+
+.green {
+  background: green;
+}
+
+.red {
+  background: red;
+}
+
+.yellow {
+  background: yellow;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
