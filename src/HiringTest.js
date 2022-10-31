@@ -1,4 +1,4 @@
-import './App.css';
+import "./App.css";
 
 // Hi everyone, thank you for the interest in joining Supafaya.
 
@@ -10,7 +10,7 @@ import './App.css';
 
 // About the position:
 // The role/s we're hiring for is for Junior Web Developers. Our budget for the role is 19-25k/month + benefits + stock options. There will be no over time at any point during your employment in Supafaya. If ever there will be, it would be optional and paid.
-// Supafaya aims to be a $1Billion company in a few years and we would not be able to reach that if we don't do things differently. That said, we're implementing a strict Work From Home set up. 
+// Supafaya aims to be a $1Billion company in a few years and we would not be able to reach that if we don't do things differently. That said, we're implementing a strict Work From Home set up.
 // We're also doing something different in terms of work. Our work schedule is from 8AM - 5PM, 12-1PM lunch break. You'd be required to work on the features we have in the company for the first 6 hours, but from 3PM - 5PM you may work on any form of innovative feature you want (as long as it's related to the company). We want you to enjoy what you're doing and be curious. Work shouldn't be as draining as it is right now. It should be challenging and exciting.
 // As it is now, we're financially stable and have the capacity to run for two years without additional funding. However, we're looking to do a bigger raise in a few months. That said, we'd probably have a bigger teamm by then. We don't plan to hire Sr. Devs. Instead, we'll train you to become Sr. Devs. and have Jr. Devs. under you.
 
@@ -18,7 +18,7 @@ import './App.css';
 // Hi, I'm Owen! I'm the CEO and founder of Supafaya. I'm 24 years old. I'm a fullstack Software Engineer with background in Venture Capital, Finance, Data Science, and Law.
 // I would first like to thank you for the interest. If you're still here reading, then I've caught your interest. Thank you and I appreciate the time.
 // Second, I'd like to apologize since I won't be able to guide you for your whole stay here in Supafaya. I'd be here most of the time since I usually work 20hrs a day, but I can't promise to be there all the time since I would have to tend to other areas of the business.
-// That said, this role would really require a lot of self-learning and independent work. Every Tuesday and Thursday, 10am-11:30am, we'd hold our catch up meetings so that we could re-align on the timeline, the progress, and any roadblocks that you're facing. Other than that, I don't plan to breathe down your neck and check up on you all the time (unless its urgent). 
+// That said, this role would really require a lot of self-learning and independent work. Every Tuesday and Thursday, 10am-11:30am, we'd hold our catch up meetings so that we could re-align on the timeline, the progress, and any roadblocks that you're facing. Other than that, I don't plan to breathe down your neck and check up on you all the time (unless its urgent).
 // You would have complete freedom of the way you'd like to work, all I ask is that you attend our required meetings during Tuesdays and Thursdays, and deliver the work.
 // You guys would be our first hires. We don't have any Sr Devs nor do we have a CTO, and we don't plan to have any in the future. Our plan is to get a CTO and Sr. Devs. from this pool of applicants. The opportunity for growth here is absolutely unreal and I would love to have you guys in the company.
 // That said, good luck! And I'm looking forward to meet all of you.
@@ -53,11 +53,10 @@ import './App.css';
 // - The goal here is to replicate submitting a form.
 // - Input username, fullname, age then upon 'Submit' button click, the input fields should be reflected below.
 
-function HiringTest () {
+function HiringTest() {
   return (
     <div className="App">
       <header className="App-header">
-
         {/* Challenge 1: Make the paragraph button vanish on click */}
         <div>
           <h1>1. Make this vanish</h1>
@@ -69,10 +68,10 @@ function HiringTest () {
           <h1>2. Create a Basic Timer</h1>
           <span> mins </span>
           <span> secs</span>
-          <div className='button2'>
-            <button className='button green'>Start</button>
-            <button className='button red'>Stop</button>
-            <button className='button yellow'>Reset</button>
+          <div className="button2">
+            <button className="button green">Start</button>
+            <button className="button red">Stop</button>
+            <button className="button yellow">Reset</button>
           </div>
         </div>
 
@@ -82,7 +81,7 @@ function HiringTest () {
           <input />
           <button>Add Task</button>
         </div>
-        
+
         {/* Challenge 4: Submit a form */}
         <div>
           <h1>4. Submit a form</h1>
@@ -109,12 +108,12 @@ function HiringTest () {
             </div>
             <br />
             <button>Submit</button>
-              <h4>Request Sent to DB with below request data</h4>
-              <ul>
-                <li>UserName: </li>
-                <li>FullName: </li>
-                <li>Age: </li>
-              </ul>
+            <h4>Request Sent to DB with below request data</h4>
+            <ul>
+              <li>UserName: </li>
+              <li>FullName: </li>
+              <li>Age: </li>
+            </ul>
           </form>
         </div>
       </header>
